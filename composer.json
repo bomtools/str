@@ -1,0 +1,27 @@
+{
+    "name": "bomtools/str",
+    "description": "Tools for string handling",
+    "keywords": [
+    	"string",
+    	"replace",
+    	"regular expression",
+    	"converting"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bakay Omuraliev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    	"php": ">=7.0.0"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"BomTools\\": "src/"
+    	}
+    },
+    "minimum-stability": "dev"
+}
